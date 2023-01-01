@@ -10,12 +10,41 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Business Card Site</title>
   </head>
   <body>
-    <img src="../img/myImg1.jpg" alt="Egor_Sasim_Img" />
-    <h1>Egor Sasim</h1>
-    <p>I'm exited to see U on my personal Business card website!!!</p>
-    <button>More info...</button>
+    <div class="container my-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <div class="card" style="width: 18rem">
+          <img
+            class="face-img card-img-top"
+            src="../img/myImg1.jpg"
+            alt="Egor_Sasim_Img"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Egor Sasim</h5>
+            <p class="card-text">
+              I'm exited to see U on my personal Business card website!!!
+              <br />
+              At the time of writing this site I am working as an angular
+              developer
+              <br />
+              It's very boring to be in the village, so I decided to write
+              simple business card site in 1 hour and learn bootstrap at the
+              same time
+            </p>
+            <a href="https://github.com/EgorSasim"
+              ><button type="button" class="btn btn-dark">Github</button></a
+            >
+            <a href="www.linkedin.com/in/egor-sasim-022788214" class="card-link"
+              ><button type="button" class="btn btn-warning">
+                LinkedIn
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
